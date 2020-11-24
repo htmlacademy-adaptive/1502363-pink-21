@@ -1,12 +1,226 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body class="page_body">
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+    <header class="page-header">
+      <nav class="main-nav">
+        <a class="page-header__logo" href="index.html">
+          <img src="https://via.placeholder.com/150x150" alt="Логотип компании Pink">
+        </a>
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+          <div class="main-nav__wrapper">
+            <ul class="main-nav__list site-list">
+              <li class="site-list__item site-list__item--active">
+                <a>
+                  Главная
+                </a>
+              </li>
+              <li class="site-list__item">
+                <a href="photo.html">
+                  Фотографии
+                </a>
+              </li>
+              <li class="site-list__item">
+                <a href="form.html">
+                  Конкурс
+                </a>
+              </li>
+              <li class="site-list__item">
+                <a href="#">
+                  HTML Academy
+                </a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+    </header>
 
+
+<main class="page-main">
+  <h1 class="visually-hidden">Pink</h1>
+
+<section class="download-section">
+  <h2 class="visually-hidden">Как скачать приложение</h2>
+  <p> Взгляните на жизнь иначе!</p>
+  <button class="download-section__button" type="button">Скачать приложение</button>
+  <div>
+    <div class="download-section__items">
+      <a> <img src="https://via.placeholder.com/150x150" alt="iPhone"></a>
+      <a> <img src="https://via.placeholder.com/150x150" alt="Android"></a>
+      <a> <img src="https://via.placeholder.com/150x150" alt="Windows"></a>
+    </div>
+    <p class="download-section__desc">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+  </div>
+</section>
+
+<section class="advantages">
+  <h2 class="visually-hidden">Преимущества</h2>
+    <div class="advantages_desc">
+      <p>Устали от серости мегаполиса?</p>
+      <span> Нам есть, что вам предложить!</span>
+    </div>
+    <div>
+    <ul class="advantages_list">
+      <li class="advantages_item">
+        <h3>Поднимает настроение</h3>
+        <p>Приложение позволит вам победить<br>осеннюю хандру и депрессию буквально в<br>несколько кликов!</p>
+      </li>
+      <li class="advantages_item">
+        <h3>Меняет мир вокруг</h3>
+        <p>Сделайте снимок и украсьте его смайликом<br>или текстовой подписью, чтобы<br>усилить эффект</p>
+      </li>
+      <li class="advantages_item">
+        <h3>Заводит новых друзей</h3>
+        <p>Ставьте лайки, комментируйте, делитесь<br>фотографиями с друзьями и заводите новых</p>
+      </li>
+    </ul>
+    </div>
+</section>
+
+
+<div class="description">
+  <div class="description_legend">
+    <h3 class="description_legend_title">Эффект на 24 часа!</h3>
+    <p class="description_legend_phrase">Британские ученые провели исследования<br>и доказали, что положительный эффект<br>от использования приложения длится<br>целые сутки!</p>
+    <a class="description_legend_more" href="blank.html">Узнать больше об исследовании</a>
+  </div>
+
+  <section class="reviews slider">
+    <h3 class="visually-hidden">Отзывы</h3>
+    <ul class="reviews_list">
+      <li class="reviews_item">
+        <p class="reviews_item_text">«Это приложение перевернуло мой мир и позволило по-новому<br>взглянуть на привычные серые вещи! А еще я познакомился со своей<br>будущей женой в комментариях к выложенной фотографии!»</p>
+        <p class="reviews_item_author">Николай Петров
+          <span class="reviews_item_author_desc">25 лет, водитель трамвая</span>
+        </p>
+      </li>
+    </ul>
+  </div>
+  <div class="slider-controls">
+    <button class="slider-controls_toggle current" type="button" aria-label="Первый слайд"></button>
+    <button class="slider-controls_toggle" type="button" aria-label="Второй слайд"></button>
+    <button class="slider-controls_toggle" type="button" aria-label="Третий слайд"></button>
+  </div>
+</section>
+
+<section class="price">
+  <h3 class="visually-hidden">Стоимость</h3>
+  <table class="price_table">
+    <tr>
+       <th>
+        <p>База
+         <span>1,99 USD</span>
+        </p>
+        </th>
+        <th>
+         <p>СТАНДАРТ
+          <span>3,99 USD</span>
+         </p>
+         </th>
+         <th>
+          <p>АНЛИМ
+           <span>9,99 USD</span>
+          </p>
+        </th>
+    </tr>
+    <tr>
+       <th>
+         <p>Розовый фильтр</p>
+         <img src="https://via.placeholder.com/150x150" alt="есть">
+       </th>
+       <th>
+         <p>Розовый фильтр</p>
+         <img src="https://via.placeholder.com/150x150" alt="есть">
+       </th>
+       <th>
+         <p>Розовый фильтр</p>
+         <img src="https://via.placeholder.com/150x150" alt="есть">
+       </th>
+    </tr>
+    <tr>
+        <th>
+          <p>Смайлики</p>
+          <img src="https://via.placeholder.com/150x150" alt="нет">
+        </th>
+        <th>
+          <p>Смайлики</p>
+          <img src="https://via.placeholder.com/150x150" alt="есть">
+        </th>
+        <th>
+          <p>Смайлики</p>
+          <img src="https://via.placeholder.com/150x150" alt="есть">
+        </th>
+   </tr>
+   <tr>
+       <th>
+         <p>Комментарии</p>
+         <img src="https://via.placeholder.com/150x150" alt="нет">
+       </th>
+       <th>
+         <p>Комментарии</p>
+         <img src="https://via.placeholder.com/150x150" alt="нет">
+       </th>
+       <th>
+         <p>Комментарии</p>
+         <img src="https://via.placeholder.com/150x150" alt="есть">
+       </th>
+  </tr>
+  </table>
+
+  <div class="slider-controls">
+    <button class="slider-controls_toggle current" type="button" aria-label="Первый слайд"></button>
+    <button class="slider-controls_toggle" type="button" aria-label="Второй слайд"></button>
+    <button class="slider-controls_toggle" type="button" aria-label="Третий слайд"></button>
+  </div>
+</section>
+
+<section class="feedback">
+  <h3 class="visually-hidden">Обратная связь</h3>
+  <p class="feedback_text">Остались вопросы?<br>Свяжитесь с нами!</p>
+  <ul class="feedback_contacts-list">
+    <li class="feedback_contacts-item">
+       <p>Звоните:</p>
+       <a href="tel:+7812555-66-66">+7 (812) 555-66-66</a>
+    </li>
+    <li class="feedback_contacts-item">
+       <p>Пишите:</p>
+       <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+    </li>
+    <li class="feedback_contacts-item">
+       <p>Приезжайте в гости:</p>
+       <a href="">ул. Большая<br>Конюшенная, 19/8</a>
+    </li>
+  </ul>
+  <div class="feedback_map"></div>
+</section>
+</main>
+
+<footer>
+  <div class="footer">
+    <a class="footer_logo" href="index.html">
+      <img src="https://via.placeholder.com/150x150" alt="Логотип компании Pink">
+    </a>
+    <div class="footer_social">
+      <a class="footer_social_link"><img src="https://via.placeholder.com/150x150" alt="twitter"></a>
+      <a class="footer_social_link"><img src="https://via.placeholder.com/150x150" alt="facebook"></a>
+      <a class="footer_social_link"><img src="https://via.placeholder.com/150x150" alt="youtube"></a>
+    </div>
+    <div class="copyright">
+      <p>Разработано</p>
+      <a class="copyright_logo" href="index.html">
+        <img src="https://via.placeholder.com/150x150" alt="Логотип компании Htmlacademy">
+      </a>
+    </div>
+</footer>
   </body>
 </html>
