@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
-<<<<<<< HEAD
-=======
   <head>
   <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
@@ -25,11 +23,7 @@
                 </a>
               </li>
               <li class="site-list__item">
-<<<<<<< HEAD
                 <a href="catalog.html">
-=======
-                <a href="photo.html">
->>>>>>> a4f436752bbe9cfa7ef0c263fde26f2b6abb24cf
                   Фотографии
                 </a>
               </li>
@@ -47,66 +41,22 @@
           </div>
       </nav>
     </header>
->>>>>>> 287edb0ef87fb0bdeff3a528bcef4bf0cab7f376
-
-<head>
-  <meta charset="utf-8">
-  <title>HTML Academy: Пинк</title>
-  <link rel="stylesheet" href="normalize.css">
-  <link href="css/style.css" rel="stylesheet">
-</head>
-
-<body class="page-body">
-  <header class="page-header">
-    <nav class="page-header__nav main-nav">
-      <a class="main-nav__logo">
-        <img src="https://via.placeholder.com/" width="74" height="23" alt="Логотип компании Pink">
-      </a>
-      <button class="main-nav__toggle" type="button">
-        <span class="visually-hidden">Открыть меню</span>
-      </button>
-      <div class="main-nav__wrapper">
-        <ul class="main-nav__list site-list">
-          <li class="site-list__item site-list__item--active">
-            <a>
-              Главная
-            </a>
-          </li>
-          <li class="site-list__item">
-            <a href="photo.html">
-              Фотографии
-            </a>
-          </li>
-          <li class="site-list__item">
-            <a href="form.html">
-              Конкурс
-            </a>
-          </li>
-          <li class="site-list__item">
-            <a href="#">
-              HTML Academy
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-
 
   <main class="page-main">
     <h1 class="visually-hidden">Pink</h1>
     <section class="page-main__download-section download-section">
       <h2 class="visually-hidden">Как скачать приложение</h2>
-      <p> Взгляните на жизнь иначе!</p>
+      <p class="download-section__title"> Взгляните на жизнь иначе!</p>
+      <span class="download-section__picture"></span>
+    <div class="download-section__types">
       <button class="download-section__button" type="button">Скачать приложение</button>
-      <div>
-        <ul class="download-section__items">
-          <li><a class="download-section__iphone"> <img src="https://via.placeholder.com/150x150" width="47" height="56" alt="iPhone"></a></li>
-          <li><a class="download-section__android"><img src="https://via.placeholder.com/150x150" width="43" height="47" alt="Android"></a></li>
-          <li><a class="download-section__windows"> <img src="https://via.placeholder.com/150x150" width="44" height="41" alt="Windows"></a></li>
-        </ul>
+      <ul class="download-section__items">
+        <li><a class="download-section__iphone"> <img src="https://via.placeholder.com/150x150" width="47" height="56" alt="iPhone"></a></li>
+        <li><a class="download-section__android"><img src="https://via.placeholder.com/150x150" width="43" height="47" alt="Android"></a></li>
+        <li><a class="download-section__windows"> <img src="https://via.placeholder.com/150x150" width="44" height="41" alt="Windows"></a></li>
+      </ul>
         <p class="download-section__desc">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
-      </div>
+    </div>
     </section>
 
     <section class="page-main__advantages advantages">
@@ -130,10 +80,14 @@
             <p class="advantages__item-paragraph">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
           </li>
         </ul>
+        <span class="advantages__pic"></span>
+        <span class="advantages__pic2"></span>
+        <span class="advantages__pic3"></span>
       </div>
     </section>
 
     <div class="page-main__description description">
+      <span class="description__picture"></span>
       <div class="description__legend">
         <h3 class="description__legend-title">Эффект на 24 часа!</h3>
         <p class="description__legend-paragraph">Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!</p>
@@ -144,10 +98,10 @@
         <h3 class="visually-hidden">Отзывы</h3>
         <ul class="reviews__list">
           <li class="reviews__item">
-            <p class="reviews__item-paragraph">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
             <p class="reviews__item-author">Николай Петров
               <span class="reviews__item-profession">25 лет, водитель трамвая</span>
             </p>
+            <p class="reviews__item-paragraph">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
           </li>
         </ul>
     </div>
@@ -162,60 +116,60 @@
       <h3 class="visually-hidden">Стоимость</h3>
       <table class="price__table">
         <tr>
-          <th>
+          <th class="price__table-item">
             <p class="price__table-title">База
               <span class="price__table-price">1,99 USD</span>
             </p>
           </th>
-          <th>
+          <th class="price__table-item">
             <p class="price__table-title">СТАНДАРТ
               <span class="price__table-price">3,99 USD</span>
             </p>
           </th>
-          <th>
+          <th class="price__table-item">
             <p class="price__table-title">АНЛИМ
               <span class="price__table-price">9,99 USD</span>
             </p>
           </th>
         </tr>
         <tr>
-          <th>
+          <th class="price__table-item2">
             <p class="price__table-paragraph">Розовый фильтр</p>
             <img src="https://via.placeholder.com/150x150" alt="есть">
           </th>
-          <th>
+          <th class="price__table-item2">
             <p class="price__table-paragraph">Розовый фильтр</p>
             <img src="https://via.placeholder.com/150x150" alt="есть">
           </th>
-          <th>
+          <th class="price__table-item2">
             <p class="price__table-paragraph">Розовый фильтр</p>
             <img src="https://via.placeholder.com/150x150" alt="есть">
           </th>
         </tr>
         <tr>
-          <th>
+          <th class="price__table-item2">
             <p class="price__table-paragraph">Смайлики</p>
             <img src="https://via.placeholder.com/150x150" alt="нет">
           </th>
-          <th>
+          <th class="price__table-item2">
             <p class="price__table-paragraph">Смайлики</p>
             <img src="https://via.placeholder.com/150x150" alt="есть">
           </th>
-          <th>
+          <th class="price__table-item2">
             <p class="price__table-paragraph">Смайлики</p>
             <img src="https://via.placeholder.com/150x150" alt="есть">
           </th>
         </tr>
         <tr>
-          <th>
+          <th class="price__table-item2">
             <p class="price__table-paragraph">Комментарии</p>
             <img src="https://via.placeholder.com/150x150" alt="нет">
           </th>
-          <th>
+          <th class="price__table-item2">
             <p class="price__table-paragraph">Комментарии</p>
             <img src="https://via.placeholder.com/150x150" alt="нет">
           </th>
-          <th>
+          <th class="price__table-item2">
             <p class="price__table-paragraph">Комментарии</p>
             <img src="https://via.placeholder.com/150x150" alt="есть">
           </th>
@@ -257,9 +211,9 @@
         <img src="https://via.placeholder.com" width="74" height="23" alt="Логотип компании Pink">
       </a>
       <ul class="footer__social">
-        <li><a class="footer__social-link"><img src="https://via.placeholder.com" width="48" height="48" alt="twitter"></a></li>
-        <li><a class="footer__social-link"><img src="https://via.placeholder.com" width="48" height="48" alt="facebook"></a></li>
-        <li><a class="footer__social-link"><img src="https://via.placeholder.com" width="48" height="48" alt="youtube"></a></li>
+        <li><a class="footer__social-link twitter"><img src="https://via.placeholder.com" width="48" height="48" alt="twitter"></a></li>
+        <li><a class="footer__social-link facebook"><img src="https://via.placeholder.com" width="48" height="48" alt="facebook"></a></li>
+        <li><a class="footer__social-link youtube"><img src="https://via.placeholder.com" width="48" height="48" alt="youtube"></a></li>
       </ul>
       <div class="footer__copyright">
         <p class="footer__copyright-paragraph">Разработано</p>
