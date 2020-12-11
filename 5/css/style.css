@@ -1,0 +1,291 @@
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.page {
+  margin: auto;
+  padding: 0;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%;
+  background-color: #FFFFFF;
+}
+.main-nav {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.main-nav__toggle {
+  background-image: url(../img/open-menu.svg);
+}
+.download-section__title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%;
+  color: #FFFFFF;
+  background-image: url(../img/back-mobile.jpg);
+}
+.download-section__picture {
+  background-image: url(../img/phone.png);
+}
+.download-section__types {
+  background-color: #1D2631;
+}
+.download-section__button {
+  border: 3px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 29px;
+  color: #FFFFFF;
+  background: transparant;
+}
+.download-section__desc {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.download-section__items {
+  display: flex;
+}
+.advantages {
+  background-color: #FFFFFF;
+}
+.advantages__desc-paragraph,
+.advantages__desc-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%;
+  color: #283645;
+}
+.advantages__list {
+  background-color: #F2F2F2;
+}
+.advantages__item-title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+.advantages__item-paragraph {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #283645;
+}
+.advantages__pic {
+  background-image: url(../img/iphone.png);
+}
+.advantages__pic2 {
+  background-image: url(../img/iphone-screen-2.png);
+}
+.advantages__pic3 {
+  background-image: url(../img/iphone-screen-3.png);
+}
+.description {
+  background-color: #FFFFFF;
+}
+.description__legend-title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+.description__legend-paragraph {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #283645;
+}
+.description__legend-more {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #D22856;
+}
+.description__picture {
+  background: url(../img/timer.png);
+}
+.reviews {
+  background-color: #FFFFFF;
+}
+.reviews__item-author {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+.reviews__item-profession {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: #283645;
+}
+.reviews__item-paragraph {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: #283645;
+}
+.slider-controls {
+  display: flex;
+}
+.slider-controls__toggle {
+  width: 6px;
+  height: 6px;
+  opacity: 0.3;
+  border-radius: 50%;
+  background-color: #283645;
+}
+.current {
+  width: 6px;
+  height: 6px;
+  background: #FFFFFF;
+  border: 3px solid #283645;
+}
+.price__table-item {
+  background-color: #283645;
+  border: 2px solid #283645;
+  border-radius: 1px 0px 0px 0px;
+}
+.price__table-title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.price__table-price {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.price__table-item2 {
+  border: 2px solid #E5E5E5;
+  background-color: #FFFFFF;
+}
+.price__table-paragraph {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: #283645;
+}
+.feedback {
+  background-color: #FFFFFF;
+}
+.feedback__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%;
+  color: #283645;
+}
+.feedback__contacts-paragraph {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #283645;
+}
+.feedback__contacts-link {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  color: #D22856;
+}
+.feedback__map {
+  background-image: url(../img/map.png);
+}
+.footer {
+  background-color: #FFFFFF;
+}
+.footer__social {
+  display: flex;
+}
+.twitter {
+  padding: 15px, 17px, 17px, 17px;
+  border: 3px solid rgba(29, 38, 49, 0.1);
+}
+.facebook {
+  padding: 20px, 15px;
+  border: 3px solid rgba(29, 38, 49, 0.1);
+}
+.youtube {
+  padding: 19px, 18px, 17px, 18px;
+  border: 3px solid rgba(29, 38, 49, 0.1);
+}
+.footer__copyright {
+  display: flex;
+}
+.copyright-paragraph {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #283645;
+}
+.site-list {
+  background-color: #283645;
+}
+.site-list__item {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  box-shadow: 0px 1px 0px #000000, inset 0px 1px 0px rgba(255, 255, 255, 0.15);
+  padding: 116px, 25px;
+}
+
+/*# sourceMappingURL=style.css.map */
