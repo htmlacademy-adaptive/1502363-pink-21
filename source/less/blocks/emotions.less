@@ -1,0 +1,49 @@
+.emotions__label {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: @dark-red;
+}
+
+.emotions__input {
+  border: 2px solid @border-gray;
+  border-radius: 1px;
+  :hover {
+    border: 2px solid @basic-gray;
+  }
+  :focus {
+    border: 2px solid @dark-red;
+  }
+}
+
+.emotions__button {
+  background: @button-green;
+  border: 2px solid @button-green;
+  border-radius: 1px;
+  color: @basic-white;
+    :hover {
+      background: @button-green-hover;
+      border: 2px solid @button-green-hover;
+    }
+    :focus {
+      background: @button-green-hover;
+      border: 2px solid @button-green-hover;
+      color: @white-transparant;
+    }
+    :disabled {
+      background: @border-gray;
+      border: 2px solid @border-gray;
+    }
+}
+
+.emotions__rule {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: @basic-gray;
+    .emotion__star {
+      color: @dark-red;
+    }
+}
