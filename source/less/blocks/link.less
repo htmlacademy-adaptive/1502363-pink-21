@@ -10,15 +10,17 @@
 .link__input {
   border: 2px solid @border-gray;
   border-radius: 1px;
-    ::placeholder {
+      &::-webkit-input-placeholder {
       font-weight: normal;
       font-size: 18px;
       line-height: 30px;
+      color: @basic-gray;
+      opacity: 1;
     }
-    :hover {
+    &:hover {
       border: 2px solid @basic-gray;
     }
-    :focus {
+    &:focus {
       border: 2px solid @dark-red;
     }
 }
