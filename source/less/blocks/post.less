@@ -1,0 +1,53 @@
+//post
+
+.post {
+  background-color: @light-gray;
+}
+
+.post__filter {
+  display: flex;
+}
+
+.post__buttons {
+  border-top: 1px solid @border-social-gray;
+}
+
+.post__button-post {
+  border: 3px solid @dark-red;
+  box-sizing: border-box;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  color: @dark-red;
+  background-color: transparant;
+  padding: 91px 21px;
+    &:hover {
+      color: @basic-white;
+      background-color: @dark-red;
+    }
+    &:focus {
+      background-color: @dark-red;
+      color: @white-transparant;
+    }
+}
+
+.post__button-cancel {
+  border: 3px solid #283645;
+  box-sizing: border-box;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  opacity: 0.1;
+  color: @basic-gray;
+  background-color: transparant;
+    &:hover {
+    opacity: 0.3;
+  }
+    &:focus {
+    background-color: @basic-gray;
+    color: @basic-white;
+    opacity: 0.3;
+  }
+}

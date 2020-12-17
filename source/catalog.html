@@ -42,8 +42,8 @@
     </nav>
   </header>
   <main class="page-main">
-    <div class="page-main__title">
-      <h1>Фотографии пользователей</h1>
+    <div class="page-main__title title">
+      <h1 class="title__text">Фотографии пользователей</h1>
     </div>
     <section class="page-main__gallery gallery ">
       <h2 class="visually-hidden gallery__title">Фотографии пользователей</h2>
@@ -52,7 +52,8 @@
         <li class="gallery__item item">
           <img class="item__img-special" src="https://via.placeholder.com/150x150" width="320" height="137" alt="изображение">
           <span class="item__special">Панорама дня</span>
-          <p class="item__name">Анна
+          <div class="item-info">
+            <p class="item__name">Анна
             <span class="item__date">(5 минут назад)</span>
           </p>
           <p class="item__description">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
@@ -60,9 +61,11 @@
             <button class="item__button" type="button"><span class="visually-hidden">Мне нравится</span></button>
             <p class="item__quantity">Нравится: 215</p>
           </div>
+        </div>
         </li>
         <li class="gallery__item item">
           <img class="item__img" src="https://via.placeholder.com/150x150" width="280" height="180" alt="изображение">
+          <div class="item-info">
           <p class="item__name">Левон
             <span class="item__date">(5 часов назад)</span>
           </p>
@@ -71,9 +74,11 @@
             <button class="item__button" type="button"><span class="visually-hidden">Мне нравится</span></button>
             <p class="item__quantity">Нравится: 356</p>
           </div>
+        </div>
         </li>
         <li class="gallery__item item">
           <img class="item__img" src="https://via.placeholder.com/150x150" width="280" height="180" alt="изображение">
+          <div class="item-info">
           <p class="item__name">Антон
             <span class="item__date">(12 часов назад)</span>
           </p>
@@ -82,9 +87,11 @@
             <button class="item__button" type="button"><span class="visually-hidden">Мне нравится</span></button>
             <p class="item__quantity">Нравится: 666</p>
           </div>
+        </div>
         </li>
         <li class="gallery__item item">
           <img class="item__img" src="https://via.placeholder.com/150x150" width="280" height="180" alt="изображение">
+          <div class="item-info">
           <p class="item__name">Борис
             <span class="item__date">(20 часов назад)</span>
           </p>
@@ -93,9 +100,11 @@
             <button class="item__button" type="button"><span class="visually-hidden">Мне нравится</span></button>
             <p class="item__quantity">Нравится: 215</p>
           </div>
+        </div>
         </li>
         <li class="gallery__item item">
           <img class="item__img" src="https://via.placeholder.com/150x150" width="280" height="180" alt="изображение">
+          <div class="item-info">
           <p class="item__name">Сергей
             <span class="item__date">(25 часов назад)</span>
           </p>
@@ -104,9 +113,11 @@
             <button class="item__button" type="button"><span class="visually-hidden">Мне нравится</span></button>
             <p class="item__quantity">Нравится: 4</p>
           </div>
+        </div>
         </li>
         <li class="gallery__item item">
-          <img class="item__img" src="https://via.placeholder.com/150x150" width="280" height="180" alt="изображение">
+          <img class="item__img" src="https://via.placeholder.com/150x150" width="280" height="180" alt="изображение"><div class="item-info">
+          <div class="item-info">
           <p class="item__name">Максим
             <span class="item__date">(40 часов назад)</span>
           </p>
@@ -115,9 +126,11 @@
             <button class="item__button" type="button"><span class="visually-hidden">Мне нравится</span></button>
             <p class="item__quantity">Нравится: 150</p>
           </div>
+        </div>
         </li>
         <li class="gallery__item item">
           <img class="item__img" src="https://via.placeholder.com/150x150" width="280" height="180" alt="изображение">
+          <div class="item-info">
           <p class="item__name">Надежда
             <span class="item__date">(45 часов назад)</span>
           </p>
@@ -126,6 +139,7 @@
             <button class="item__button" type="button"><span class="visually-hidden">Мне нравится</span></button>
             <p class="item__quantity">Нравится: 2560</p>
           </div>
+        </div>
         </li>
       </ul>
       <p class="gallery__appeal">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
@@ -150,6 +164,7 @@
           </div>
         </div>
       </div>
+      <div class="post__buttons">
       <button type="button" class="post__button-post">Запостить</button>
       <button type="button" class="post__button-cancel">Отмена</button>
     </section>
